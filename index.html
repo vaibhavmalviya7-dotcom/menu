@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="app_pannel">
+      <aside class="sidebar" role="navigation" aria-label="Main navigation">
+        <nav class="" aria-label="Primary">
+          <div class="nav_elements set_flex">
+            <div class="nav_leftElements set_flex">
+              <div class="nav_leftUpperElements set_flex">
+                <div class="nav_logo">
+                  <i class="fa-solid fa-circle-nodes"></i>
+                </div>
+                <div class="nav_linkBlock">
+                  <ul class="list_none">
+                    <li class="drop_items">
+                      <a class="nav_fLink active" href="#"
+                        ><i class="fa-solid fa-bars-progress"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav_fLink" href="#">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="nav_leftLowerElements set_flex">
+                <div class="nav_linkBlock">
+                  <ul class="list_none">
+                    <li class="drop_items">
+                      <a class="nav_fLink_d" href="#"
+                        ><i class="fa-solid fa-gear"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav_fLink_d setting_action" href="#">
+                        <i class="fa-solid fa-user"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="nav_rightElements">
+              <div class="drop_itemBox drop_itemBox_inner_block active">
+                <div class="drop_title set_flex">
+                  <h3>Dashboard</h3>
+                  <span class="menu_nav_drop drop_arrow_active">
+                    <i class="fa-solid fa-chevron-right"></i
+                  ></span>
+                </div>
+                <div class="search_box">
+                  <input
+                    type="text"
+                    class="search_input"
+                    placeholder="Search..."
+                  />
+                  <span class="search_icon">
+                    <i class="fa-solid fa-search"></i>
+                  </span>
+                </div>
+
+                <div class="nav_sLinkBlock">
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">Dashboard Types</h5>
+                    <ul class="list_none">
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink active" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-plus"></i>
+                          </span>
+                          <span class="nav_sText">Overview</span>
+                        </a>
+                      </li>
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-filter"></i>
+                          </span>
+                          <span class="nav_sText">Executive Summary</span>
+                        </a>
+                      </li>
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-filter"></i>
+                          </span>
+                          <span class="nav_sText">Operations Dashboard</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">Report Summaries</h5>
+                    <ul class="list_none">
+                      <li
+                        class="link_nav_inner drop_menuItems active_container"
+                      >
+                        <a class="nav_sLink drop_arrow active_trigger" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-clock"></i>
+                          </span>
+                          <span class="nav_sText">Weekly Reports</span>
+                        </a>
+                        <div class="drop_itemBox_inner active_triggerBlock">
+                          <ul class="list_none">
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> All </a>
+                            </li>
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> Completed </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li
+                        class="link_nav_inner drop_menuItems active_container"
+                      >
+                        <a class="nav_sLink drop_arrow active_trigger" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                          </span>
+                          <span class="nav_sText">Business Intelligence</span>
+                        </a>
+                        <div class="drop_itemBox_inner active_triggerBlock">
+                          <ul class="list_none">
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> All </a>
+                            </li>
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> Completed </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="link_nav_inner drop_menuItems">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-circle-check"></i>
+                          </span>
+                          <span class="nav_sText"> Completed </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">Other</h5>
+                    <ul class="list_none">
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-flag"></i>
+                          </span>
+                          <span class="nav_sText"> Priority tasks </span>
+                        </a>
+                      </li>
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-box-archive"></i>
+                          </span>
+                          <span class="nav_sText"> Archived </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="drop_itemBox drop_itemBox_inner_block">
+                <div class="drop_title set_flex">
+                  <h3>Tasks</h3>
+                  <span class="menu_nav_drop drop_arrow_active">
+                    <i class="fa-solid fa-chevron-right"></i
+                  ></span>
+                </div>
+                <div class="search_box">
+                  <input
+                    type="text"
+                    class="search_input"
+                    placeholder="Search..."
+                  />
+                  <span class="search_icon">
+                    <i class="fa-solid fa-search"></i>
+                  </span>
+                </div>
+
+                <div class="nav_sLinkBlock">
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">Quick Actions</h5>
+                    <ul class="list_none">
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink active" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-plus"></i>
+                          </span>
+                          <span class="nav_sText"> New task</span>
+                        </a>
+                      </li>
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-filter"></i>
+                          </span>
+                          <span class="nav_sText"> Filter tasks</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">My Tasks</h5>
+                    <ul class="list_none">
+                      <li
+                        class="link_nav_inner drop_menuItems active_container"
+                      >
+                        <a class="nav_sLink drop_arrow active_trigger" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-clock"></i>
+                          </span>
+                          <span class="nav_sText"> Due today </span>
+                        </a>
+                        <div class="drop_itemBox_inner active_triggerBlock">
+                          <ul class="list_none">
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> All </a>
+                            </li>
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> Completed </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li
+                        class="link_nav_inner drop_menuItems active_container"
+                      >
+                        <a class="nav_sLink drop_arrow active_trigger" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                          </span>
+                          <span class="nav_sText"> In progress</span>
+                        </a>
+                        <div class="drop_itemBox_inner active_triggerBlock">
+                          <ul class="list_none">
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> All </a>
+                            </li>
+                            <li class="link_nav_inner">
+                              <a class="nav_sLink" href="#"> Completed </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="link_nav_inner drop_menuItems">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-circle-check"></i>
+                          </span>
+                          <span class="nav_sText"> Completed </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="nav_sLinkList">
+                    <h5 class="nav_sTitle">Other</h5>
+                    <ul class="list_none">
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-regular fa-flag"></i>
+                          </span>
+                          <span class="nav_sText"> Priority tasks </span>
+                        </a>
+                      </li>
+                      <li class="link_nav_inner">
+                        <a class="nav_sLink" href="#">
+                          <span class="nav_sIcon">
+                            <i class="fa-solid fa-box-archive"></i>
+                          </span>
+                          <span class="nav_sText">Archived</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </aside>
+      <main class="main_dashboard" role="main">
+        <button id="themeToggle">Toggle Theme</button>
+      </main>
+    </div>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
